@@ -111,7 +111,6 @@ public class MainApp {
                     if (checkWin(symbCheck)) {
                         map[i][j] = DOT_O;
                         System.out.println("Компьютер походил в точку " + (j + 1) + " " + (i + 1));
-                        System.out.println("да ");
                         return true;
                     } else {
                         map[i][j] = DOT_EMPTY;
@@ -119,7 +118,6 @@ public class MainApp {
                 }
             }
         }
-        System.out.println("нет ");
         return false;
     }
 
